@@ -1,0 +1,14 @@
+C:\Users\GaHee_Cho\Desktop\github_C\SunShadow\C_Sharp_Game\CSharp_Game\CSharp_Game\bin\Debug\net8.0\CSharp_Game.exe
+C:\Users\GaHee_Cho\Desktop\github_C\SunShadow\C_Sharp_Game\CSharp_Game\CSharp_Game\bin\Debug\net8.0\CSharp_Game.deps.json
+C:\Users\GaHee_Cho\Desktop\github_C\SunShadow\C_Sharp_Game\CSharp_Game\CSharp_Game\bin\Debug\net8.0\CSharp_Game.runtimeconfig.json
+C:\Users\GaHee_Cho\Desktop\github_C\SunShadow\C_Sharp_Game\CSharp_Game\CSharp_Game\bin\Debug\net8.0\CSharp_Game.dll
+C:\Users\GaHee_Cho\Desktop\github_C\SunShadow\C_Sharp_Game\CSharp_Game\CSharp_Game\bin\Debug\net8.0\CSharp_Game.pdb
+C:\Users\GaHee_Cho\Desktop\github_C\SunShadow\C_Sharp_Game\CSharp_Game\CSharp_Game\obj\Debug\net8.0\CSharp_Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GaHee_Cho\Desktop\github_C\SunShadow\C_Sharp_Game\CSharp_Game\CSharp_Game\obj\Debug\net8.0\CSharp_Game.AssemblyInfoInputs.cache
+C:\Users\GaHee_Cho\Desktop\github_C\SunShadow\C_Sharp_Game\CSharp_Game\CSharp_Game\obj\Debug\net8.0\CSharp_Game.AssemblyInfo.cs
+C:\Users\GaHee_Cho\Desktop\github_C\SunShadow\C_Sharp_Game\CSharp_Game\CSharp_Game\obj\Debug\net8.0\CSharp_Game.csproj.CoreCompileInputs.cache
+C:\Users\GaHee_Cho\Desktop\github_C\SunShadow\C_Sharp_Game\CSharp_Game\CSharp_Game\obj\Debug\net8.0\CSharp_Game.dll
+C:\Users\GaHee_Cho\Desktop\github_C\SunShadow\C_Sharp_Game\CSharp_Game\CSharp_Game\obj\Debug\net8.0\refint\CSharp_Game.dll
+C:\Users\GaHee_Cho\Desktop\github_C\SunShadow\C_Sharp_Game\CSharp_Game\CSharp_Game\obj\Debug\net8.0\CSharp_Game.pdb
+C:\Users\GaHee_Cho\Desktop\github_C\SunShadow\C_Sharp_Game\CSharp_Game\CSharp_Game\obj\Debug\net8.0\CSharp_Game.genruntimeconfig.cache
+C:\Users\GaHee_Cho\Desktop\github_C\SunShadow\C_Sharp_Game\CSharp_Game\CSharp_Game\obj\Debug\net8.0\ref\CSharp_Game.dll
