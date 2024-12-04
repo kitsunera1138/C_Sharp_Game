@@ -21,10 +21,13 @@ namespace CSharp_Game.Skill
         public int evasion;//회피율
 
         public string skillName { get; set; }    
-        public string skillType { get; set; }  
+        public string skillType { get; set; }  //스킬 타입
         public string attackType { get; set; } //물리인지 특수인지 공격 타입
                                                //Physical Attack 물리공격
                                                //Special Attack 특공
+                                               //혹은 회복스킬
+                                               //능력치 업 스킬
+                                               //방어 스킬
         public float power { get; set; }      
         public int PP { get; set; }
 

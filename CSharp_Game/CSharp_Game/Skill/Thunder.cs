@@ -16,14 +16,16 @@ namespace CSharp_Game.Skill
             learnPokemon = pokemon;
             skillName = "Thunder";
             //타입 매니저로 수정 예정
-            skillType = "Electric";
+            skillType = "ELECTRIC";
             attackType = "Special Attack";
             power = 110;
             PP = 10;
             accuracy = 70; //명중률
 
             // 타입이 같으면 1.2배 확인 
-            if (skillType == learnPokemon.type)
+            if (skillType == learnPokemon.primaryType)
+                power *= 1.2f;
+            if (skillType == learnPokemon.secondaryType)
                 power *= 1.2f;
         }
 
@@ -39,6 +41,7 @@ namespace CSharp_Game.Skill
             //명중률에 따른 정확도
         }
 
+        //모든 스킬마다 중복되므로 배틀매니저 에서 구현하도록함
         public int TypeCalculation(Pokemon.Pokemon enemyPokemon)
         {
             int resultpower = 1;

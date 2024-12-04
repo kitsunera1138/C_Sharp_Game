@@ -15,14 +15,17 @@ namespace CSharp_Game.Pokemon
         DRAGON,
         FLYING,
         POISON,
-        Electric,
+        ELECTRIC,
+        FAIRY,
+        NORMAL
 
     }
     internal class PokemonTypeManager
     {
         public string Type { get; set; } // 타입
 
-
+        public string primaryType { get; set; } // 첫번째타입
+        public string secondaryType { get; set; } // 두번째타입
     }
     public interface IType
     {

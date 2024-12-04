@@ -13,7 +13,7 @@ namespace CSharp_Game
         private static GameManager instance;
         public static GameManager Instance
         {
-            get
+            get //외부에서 접근 가능
             {
                 if (instance == null)
                 {
@@ -22,13 +22,45 @@ namespace CSharp_Game
                 return instance;
             }
         }
+        public GameManager()
+        {
+            Console.WriteLine("GameManager");
+        }
+        //public int PalyerHealth;
+        public int CurrentMap =1;
+        public Pokemon.Pokemon currentPokemon = null;
+        public void PlayerPokemon(Pokemon.Pokemon currentPokemon)
+        {
+            this.currentPokemon = currentPokemon;
+
+        }
+
+        public void Win()
+        {
+            //승리시 다음 맵 카운트
+            CurrentMap++;
+        }
+
+        public void GameOver()
+        {
+            Console.WriteLine("남은 체력이 0이 되었습니다. GameOver");
+        }
+
+        public void GameWin()
+        {
+            Console.WriteLine("승리하셨습니다. 다음 맵으로 넘어갑니다.");
+        }
+
+        public void GameEnd()
+        {
+            Console.WriteLine("모든 라운드에서 승리하셨습니다.");
+        }
 
         //이름, 배틀 현황
-
         public void Attack( Pokemon.Pokemon AttackPokemon, Pokemon.Pokemon DamagePokemon) //c#은 클래스에 ref 필요 없어서 뺌
         {
-            Console.WriteLine(AttackPokemon.name + "" + AttackPokemon.CurrentSkills + " " + DamagePokemon.name);
-
+            Console.WriteLine(AttackPokemon.name + " Attack : " + AttackPokemon.CurrentSkills + " ");
+            Console.WriteLine(DamagePokemon.name +" Damage");
             
                 //SkillDamage(ref AttackPokemon,ref DamagePokemon);
 
