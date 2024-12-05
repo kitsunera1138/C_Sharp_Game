@@ -10,7 +10,7 @@ using static CSharp_Game.Skill.Skill;
 
 public interface ISkill
 {
-    void Use(CSharp_Game.Pokemon.Pokemon enemyPokemon);
+    void Use(CSharp_Game.Pokemon.Pokemon SkillUsePokemon);
 }
 
 namespace CSharp_Game.Skill
@@ -20,7 +20,7 @@ namespace CSharp_Game.Skill
         public int accuracy;//명중률
         public int evasion;//회피율
 
-        public string skillName { get; set; }    
+        public string skillName { get; set; }
         public string skillType { get; set; }  //스킬 타입
         public string attackType { get; set; } //물리인지 특수인지 공격 타입
                                                //Physical Attack 물리공격
@@ -28,9 +28,12 @@ namespace CSharp_Game.Skill
                                                //혹은 회복스킬
                                                //능력치 업 스킬
                                                //방어 스킬
-        public float power { get; set; }      
+
+        public float power { get; set; }
         public int PP { get; set; }
 
+        //보류
+        //ublic int Priority { get; set; } //기술 우선도 
 
         //public List<string> CurrentSkills { get; set; } //현재 기술 목록
         //public List<string> Skills { get; set; } //배울수 있는 기술 목록
@@ -46,7 +49,7 @@ namespace CSharp_Game.Skill
         //
         //public PokemonSkill(string name, int power, string type)
         //{
-            
+
         //}
         //public PokemonSkill AttackA()
         //{

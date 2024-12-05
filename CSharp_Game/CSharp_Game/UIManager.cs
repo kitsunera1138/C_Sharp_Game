@@ -8,7 +8,7 @@ namespace CSharp_Game
 {
     //메인메뉴씬
     //게임 씬 - 현재 포켓몬, 현재 층
-    // 공격 볼(대신 스탯보기?) 가방 도망가기     -> 포켓몬 기술 4가지
+    // 공격 볼(대신 스탯보기? 교체?) 가방 도망가기     -> 포켓몬 기술 4가지
     //esp 보조 씬
     //게임 승리
     //게임 오버
@@ -24,7 +24,12 @@ namespace CSharp_Game
             
             Console.WriteLine("--------------------");
             Console.WriteLine("Press Enter");
+
+            Console.WriteLine("모든 포켓몬의 개체값은 1~31사이 랜덤입니다");
+            Console.WriteLine("포켓몬이 기절시 게임은 종료 됩니다.");
+
             Input();
+
         }
         public static void Input()
         {

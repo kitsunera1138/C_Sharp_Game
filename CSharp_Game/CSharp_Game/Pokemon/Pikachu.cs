@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Buffers.Text;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,46 +17,45 @@ namespace CSharp_Game.Pokemon
         public override string primaryType { get; set; } // 첫번째타입
         public override string secondaryType { get; set; } // 두번째타입
         public override int MaxHP { get; set ; }
-        public override int baseAttack { get; set; }
-        public override int baseSpAttack { get ; set; }
-        public override int baseDefense { get ; set ; }
-        public override int baseSpDefense { get; set; }
-        public override int baseSpeed { get; set; }
+
         public override float baseExperience { get; set; }
         public override string name { get; set; }
-
         public Pikachu()
+        {
+            RequiredSettings();
+            
+
+
+            //speed = pokemonBaseStats[5];
+            //MaxHP = hp;
+            //CurrentHP = hp;
+            //Attack = attack;
+            //SpAttack = spAttack;
+            //Defense = defense;
+            //SpDefense = spDefense;
+            //Speed = speed;
+
+            //Status = "Normal";
+            //CurrentSkills = new List<string>();
+            //Skills = new List<string>();
+        }
+
+        protected override void RequiredSettings()
         {
             name = "Pikachu";
             PokemonTypeManager typeManager = new PokemonTypeManager();
+            //타입 클래스로 받아와서 상성표 개별로? 전기클래스는 공격타입으로  뭐에약함 강함등 방어타입으로 ....
             primaryType = "ELECTRIC";
             secondaryType = "None";
             //Type = type;
             Level = 5;
             experience = 0;
             baseExperience = 100;
-            MaxHP = 100;
 
+            SetBaseStats(35, 55, 40, 50, 50, 90);
+            PermanentStatsManager.Instance.SetStats(this);
+            
             CurrentHP = MaxHP;
-            baseAttack = 5;
-            baseSpAttack = 5;
-            baseDefense = 5;
-            baseSpDefense = 5;
-            baseSpeed = 10;
-            //삭제예정
-            speed = baseSpeed;
-
-            //    MaxHP = hp;
-            //    CurrentHP = hp;
-            //    Attack = attack;
-            //    SpAttack = spAttack;
-            //    Defense = defense;
-            //    SpDefense = spDefense;
-            //    Speed = speed;
-
-            //    Status = "Normal";
-            //    CurrentSkills = new List<string>();
-            //    Skills = new List<string>();
         }
 
 

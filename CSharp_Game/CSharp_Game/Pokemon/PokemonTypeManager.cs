@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CSharp_Game.Pokemon;
 
 namespace CSharp_Game.Pokemon
 {
     //전략 패턴으로 바꿀지 생각
     enum PokemonType{
+        WATER,
         FIRE,
         GRASS,
-        WATER,
         ICE,
         DRAGON,
         FLYING,
@@ -36,4 +37,16 @@ namespace CSharp_Game.Pokemon
     {
         void Use();
     }
+}
+
+public class FIRE : IType
+{
+    //상성표 //공격타입에는 뭐가 강함, 방어타입에는 뭐가 강함등
+
+    
+} 
+
+public class WATER
+{
+
 }

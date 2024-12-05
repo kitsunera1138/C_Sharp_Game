@@ -14,11 +14,6 @@ namespace CSharp_Game.Pokemon
         public override string primaryType { get; set; } // 첫번째타입
         public override string secondaryType { get; set; } // 두번째타입
         public override int MaxHP { get; set; }
-        public override int baseAttack { get; set; }
-        public override int baseSpAttack { get; set; }
-        public override int baseDefense { get; set; }
-        public override int baseSpDefense { get; set; }
-        public override int baseSpeed { get; set; }
         public override float baseExperience { get; set; }
         public override string name { get; set; }
 
@@ -35,13 +30,13 @@ namespace CSharp_Game.Pokemon
             MaxHP = 80;
 
             CurrentHP = MaxHP;
-            baseAttack = 5;
-            baseSpAttack = 5;
-            baseDefense = 5;
-            baseSpDefense = 5;
-            baseSpeed = 4;
+            //baseAttack = 5;
+            //baseSpAttack = 5;
+            //baseDefense = 5;
+            //baseSpDefense = 5;
+            //baseSpeed = 4;
             //삭제예정
-            speed = baseSpeed;
+            //speed = baseSpeed;
 
             //    MaxHP = hp;
             //    CurrentHP = hp;
@@ -54,6 +49,11 @@ namespace CSharp_Game.Pokemon
             //    Status = "Normal";
             //    CurrentSkills = new List<string>();
             //    Skills = new List<string>();
+        }
+
+        protected override void RequiredSettings()
+        {
+            throw new NotImplementedException();
         }
 
 
