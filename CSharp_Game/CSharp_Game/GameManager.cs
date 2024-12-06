@@ -22,17 +22,24 @@ namespace CSharp_Game
                 return instance;
             }
         }
+
         public GameManager()
         {
-            Console.WriteLine("GameManager");
+            Initialize();
         }
-        //public int PalyerHealth;
+
+        void Initialize() //초기화 함수
+        {
+            
+        }
+
         public int CurrentMap =1;
         public Pokemon.Pokemon currentPokemon = null;
-        public void PlayerPokemon(Pokemon.Pokemon currentPokemon)
+        public Pokemon.Pokemon enemyPokemon = null;
+        public void PlayerPokemon(Pokemon.Pokemon currentPokemon, Pokemon.Pokemon enemyPokemon)
         {
             this.currentPokemon = currentPokemon;
-
+            this.enemyPokemon = enemyPokemon;
         }
 
         public void Win()

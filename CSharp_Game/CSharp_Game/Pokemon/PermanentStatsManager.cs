@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CSharp_Game.Pokemon
 {
     //레벨업에 따른 능력치 세팅
-    public class PermanentStatsManager
+    public class PermanentStatsManager //포켓몬 마다 사용할 예정으로 싱글톤 패턴 사용
     {
         private static PermanentStatsManager instance;
         public static PermanentStatsManager Instance
@@ -22,13 +22,21 @@ namespace CSharp_Game.Pokemon
             }
         }
 
+        //노력치 최대값
+        private const int MaxEV = 252;
+        private const int TotalMaxEV = 510;
+        private const int MaxIV = 31;
+
         //개체값은 랜덤 노력치는 1로 세팅
-        int IV = 1; //개체값 0~31 .. 6v
-        int Ev = 1; //노력치는 한 스탯에 252 최대 종합 510
-        int A = 1; //성격보정 1로세팅
+        private int IV = 1; //개체값 0~31 .. 6v
+        private int Ev = 1; //노력치는 한 스탯에 252 최대 종합 510
+        private int pokemonNature = 1; //성격보정 1로세팅
+        //성격 구현 가능하다면 어느 한 가지 스탯을 1.1배 상승시키고, 다른 한 가지 스탯을 0.9배 하락 기능
+
+        private readonly Random random = new Random();
 
         //경험치 매니저에서 레벨업 시 갱신 - 옵저버
-
+        //경험치 매니저? 구현해서 거기서 옵저버 패턴
 
         //생성자와 레벨업 이벤트시 호출
         public void SetStats(Pokemon target)
@@ -39,7 +47,7 @@ namespace CSharp_Game.Pokemon
         void SetHpStats(Pokemon target, int IVRandom)
         {
             IV = IVRandom; target.IV.Add(IV);
-            //pokemonBaseStats의 경우 딕셔너리
+            //pokemonBaseStats의 경우 딕셔너리로 구현 Dictionary<BASESTATS, int> 
             target.MaxHP =
             (int)(target.pokemonBaseStats[BASESTATS.BaseHp] * 2 + IV + (Ev / 4)) * target.Level / 100 + 10 + target.Level;
         }
@@ -48,7 +56,7 @@ namespace CSharp_Game.Pokemon
         {
             IV = IVRandom; target.IV.Add(IV);
             int baseStats = target.pokemonBaseStats[stats];
-            int result = (int)((baseStats * 2 + IV + (Ev / 4)) * target.Level / 100 + 5) * A;
+            int result = (int)((baseStats * 2 + IV + (Ev / 4)) * target.Level / 100 + 5) * pokemonNature;
 
             switch (stats)
             {
@@ -70,22 +78,22 @@ namespace CSharp_Game.Pokemon
             }
         }
 
+        int IVRandom() //개체값 랜덤 세팅
+        {
+            return random.Next(1, MaxIV +1); //0~31
+        }
+
         void SetPermanentStats(Pokemon target)
         {
+            //Hp
             SetHpStats(target, IVRandom());
+
             //체력외에 다른 스탯은 같은 계산 공식을 사용
-            //SetOtherStats();
             SetOtherStats(target, IVRandom(), BASESTATS.BaseAttack);
             SetOtherStats(target, IVRandom(), BASESTATS.BaseDefense);
             SetOtherStats(target, IVRandom(), BASESTATS.BaseSpAttack);
             SetOtherStats(target, IVRandom(), BASESTATS.BaseSpDefense);
             SetOtherStats(target, IVRandom(), BASESTATS.BaseSpeed);
-        }
-
-        int IVRandom() //개체값 랜덤 세팅
-        {
-            Random random = new Random();
-            return random.Next(1, 32); //0~31
         }
     }
 }

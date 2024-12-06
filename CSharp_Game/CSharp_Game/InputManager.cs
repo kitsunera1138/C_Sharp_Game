@@ -20,5 +20,15 @@ namespace CSharp_Game
                 return instance;
             }
         }
+
+        //인터페이스로 Select()구현?
+        interface IInput
+        {
+            void Select();
+        }
+
+        //현재 x,y값을 통해 버튼 위치에서 Enter을 누를 시 선택함을 인식
+
+        //버튼에 따라 공격, 도망가기, 스탯확인, 아이템등 사용 가능함
     }
 }

@@ -51,7 +51,7 @@ namespace CSharp_Game.Pokemon
             //    Skills = new List<string>();
         }
 
-        protected override void RequiredSettings()
+        protected override void Initialize()
         {
             throw new NotImplementedException();
         }

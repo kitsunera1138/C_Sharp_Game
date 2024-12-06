@@ -8,6 +8,8 @@ namespace CSharp_Game
 {
     internal class BattleTurnManager
     {
+        private static readonly Random random = new Random();
+
         //참조 변수
         private Pokemon.Pokemon playerPokemon;
         private Pokemon.Pokemon enemyPokemon;
@@ -24,6 +26,7 @@ namespace CSharp_Game
                 return instance;
             }
         }
+
 
         public void SetPokemons(Pokemon.Pokemon player, Pokemon.Pokemon enemy)
         {
@@ -51,11 +54,11 @@ namespace CSharp_Game
             if (playerPokemon.speed > enemyPokemon.speed)
             {
                 PlayerAttack();
-                EnemeyAttack();
+                EnemyAttack();
             }
             else if (playerPokemon.speed < enemyPokemon.speed)
             {
-                EnemeyAttack();
+                EnemyAttack();
                 PlayerAttack();
             }
             else //speed 동일 시 랜덤으로 공격
@@ -72,7 +75,7 @@ namespace CSharp_Game
             Console.WriteLine("Enemy " + enemyPokemon.name + "의 남은 체력:" + enemyPokemon.CurrentHP);
             Console.WriteLine();
         }
-        void EnemeyAttack()
+        void EnemyAttack()
         {
             //대충 다른 클래스에서 들고옴
             Console.WriteLine("Enemy " + enemyPokemon.name + "의 공격");
@@ -83,16 +86,15 @@ namespace CSharp_Game
 
         void RandomAttack()
         {
-            Random random = new Random();
             int randomNum = random.Next(0, 2); //0,1
             if (randomNum == 0)
             {
                 PlayerAttack();
-                EnemeyAttack();
+                EnemyAttack();
             }
             else
             {
-                EnemeyAttack();
+                EnemyAttack();
                 PlayerAttack();
             }
         }

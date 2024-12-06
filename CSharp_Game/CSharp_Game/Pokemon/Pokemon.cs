@@ -18,6 +18,9 @@ namespace CSharp_Game.Pokemon
         BaseSpDefense,
         BaseSpeed
     }
+
+    //public Dictionary<BATTLESTATS, int> pokemonBaseStats { get; set; }를 써서 편하게 관리?
+
     //public enum BATTLESTATS
     //{
     //    Level,
@@ -42,11 +45,18 @@ namespace CSharp_Game.Pokemon
         public abstract string primaryType { get; set; } // 첫번째타입
         public abstract string secondaryType { get; set; } // 두번째타입
         public int Level { get; set; }
-        public float experience { get; set; } //경험치 
-        public abstract float baseExperience { get; set; } //포켓몬의 경우 승리 시 획득 경험치
-        public abstract int MaxHP { get; set; }
-        public int CurrentHP { get; set; }
+        public int staticLevel
+        {
+            get
+            {
+                return this.Level;  // this를 통해 인스턴스 속성에 접근
+            }
+        }
 
+        public float experience { get; set; } //경험치 
+        public abstract float baseExperience { get; set; } //야생 포켓몬이 가진 기본 경험치 (승리 시 받을 수 있는 경험치)와 경험치 계산에 들어가는 기본 경험치
+        public int CurrentHP { get; set; }
+        public abstract int MaxHP { get; set; }
         public int attack { get; set; }
         public int defense { get; set; }
         public int spAttack { get; set; } // 특수 공격
@@ -75,7 +85,7 @@ namespace CSharp_Game.Pokemon
             IV.Capacity = 6;
             Level = 1;
             experience = 0;
-            status = "Normal";
+            status = "Normal"; //기본 상태이상
             //CurrentSkills = new List<ISkill>();
             Skills = new List<ISkill>(4);
             Skills.Capacity = 4;
@@ -86,8 +96,9 @@ namespace CSharp_Game.Pokemon
         }
 
         //추상 메서드 자식에서 필수적으로 구현해야되는 것들을 포함한다. SetBaseStats 기본 능력치 설정,Level,experience,baseExperience,primaryType 타입들
-        protected abstract void RequiredSettings();
+        protected abstract void Initialize(); //초기화 함수
 
+        //자식 클래스에서 필수 호출
         public void SetBaseStats(int hp, int attack, int defense, int spAttack, int spDefense, int speed)
         {
             //기본 능력치 설정
@@ -193,9 +204,9 @@ namespace CSharp_Game.Pokemon
         public override string name { get; set; }
         public Charmander()
         {
-            RequiredSettings();
+            Initialize();
         }
-        protected override void RequiredSettings()
+        protected override void Initialize()
         {
             SetBaseStats(39,52,43,60,50,65);
             name = "파이리";

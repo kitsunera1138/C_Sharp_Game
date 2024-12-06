@@ -22,25 +22,20 @@ namespace CSharp_Game.Pokemon
         public override string name { get; set; }
         public Pikachu()
         {
-            RequiredSettings();
+            Initialize();
             
 
 
-            //speed = pokemonBaseStats[5];
-            //MaxHP = hp;
-            //CurrentHP = hp;
-            //Attack = attack;
-            //SpAttack = spAttack;
-            //Defense = defense;
-            //SpDefense = spDefense;
-            //Speed = speed;
 
-            //Status = "Normal";
+
             //CurrentSkills = new List<string>();
             //Skills = new List<string>();
         }
-
-        protected override void RequiredSettings()
+        public Pikachu(string name)
+        {
+            //바로 초기화 가능하도록
+        }
+        protected override void Initialize()
         {
             name = "Pikachu";
             PokemonTypeManager typeManager = new PokemonTypeManager();

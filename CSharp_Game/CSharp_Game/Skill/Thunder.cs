@@ -11,8 +11,13 @@ namespace CSharp_Game.Skill
     {
         Pokemon.Pokemon learnPokemon = null;
 
+        public override int Requiredlevel { get; set ; }
+
         public Thunder(Pokemon.Pokemon pokemon) //기술을 배운 포켓몬의 타입을 가져옴
         {
+
+            Requiredlevel = 7;
+
             learnPokemon = pokemon;
             skillName = "Thunder";
             //타입 매니저로 수정 예정

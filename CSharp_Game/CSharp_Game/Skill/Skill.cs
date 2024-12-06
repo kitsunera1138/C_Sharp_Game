@@ -15,7 +15,7 @@ public interface ISkill
 
 namespace CSharp_Game.Skill
 {
-    public class Skill
+    abstract public class Skill
     {
         public int accuracy;//명중률
         public int evasion;//회피율
@@ -31,6 +31,17 @@ namespace CSharp_Game.Skill
 
         public float power { get; set; }
         public int PP { get; set; }
+
+        //필요 레벨
+        public abstract int Requiredlevel { get; set; }
+        // 현재 맵은 GameManager의 CurrentMap을 직접 참조
+
+
+        public Pokemon.Pokemon target = null;
+        public int Level => target.Level;
+        public Skill() {
+            
+        }
 
         //보류
         //ublic int Priority { get; set; } //기술 우선도 
