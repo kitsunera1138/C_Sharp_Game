@@ -43,11 +43,7 @@ namespace CSharp_Game.Pokemon
             PermanentStatsManager.Instance.SetStats(playerPokemon);
             Console.WriteLine("레벨업: " + playerPokemon.Level);
         }
-        void A(Pokemon playerPokemon)
-        {
-            playerPokemon.Level = 50;
-        }
 
-
+        public void Experience() { }
     }
 }

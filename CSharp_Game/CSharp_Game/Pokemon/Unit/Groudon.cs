@@ -44,6 +44,10 @@ namespace CSharp_Game.Pokemon
             PermanentStatsManager.Instance.SetStats(this); //능력치 세팅
 
             CurrentHP = MaxHP;
+
+            Skill precipiceBlades = new PrecipiceBlades(this);
+            this.EnemySkill(precipiceBlades);
+            
         }
     }
 }

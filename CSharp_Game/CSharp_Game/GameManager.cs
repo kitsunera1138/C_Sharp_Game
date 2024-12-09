@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CSharp_Game
 {
-    internal class GameManager
+    internal class GameManager : Subject //옵저버 패턴
     {
         private static GameManager instance;
         public static GameManager Instance
@@ -21,6 +21,10 @@ namespace CSharp_Game
                 }
                 return instance;
             }
+        }
+
+        public void eventSet (){
+            GameManager.Instance.Subscribe(MapManager.Instance);
         }
 
         public void ChooseMainPokemon()
@@ -44,7 +48,7 @@ namespace CSharp_Game
             BattleTurnManager.Instance.PlayerPokemon(playerPokemon);
             BattleTurnManager.Instance.CurrentEnemyPokemon(enemyPokemon);
 
-            playerPokemon.Level = 20;
+            playerPokemon.Level = 50;
             PermanentStatsManager.Instance.SetStats(playerPokemon);
             playerPokemon.CurrentHP = playerPokemon.MaxHP;
 
@@ -147,6 +151,8 @@ namespace CSharp_Game
             Console.WriteLine(playerPokemon.name + "가(이)" + " 쓰러졌습니다");
             Console.WriteLine();
             Console.WriteLine("GameOver");
+            //옵저버 해제
+            GameManager.Instance.Unsubscribe(MapManager.Instance);
         }
 
         public void GameWin()
@@ -156,11 +162,17 @@ namespace CSharp_Game
                 ConsoleColors.ChangeColor(COLORS.Cyan);
                 Console.WriteLine();
                 Console.WriteLine("승리하셨습니다. 다음 맵으로 넘어갑니다.");
+
+                //맵 이동 이벤트
+                NotifyObservers("MapChange");
+
                 ConsoleColors.ResetColor();
+
                 UIManager.WaitForEnterBar();
                 UIManager.ClearConsoleBuffer();
+
                 Win();
-                MapManager.Instance.RandMap();
+                //옵저버 패턴으로 변경//MapManager.Instance.RandMap();
             }
             else
             {
@@ -175,6 +187,10 @@ namespace CSharp_Game
         {
             ConsoleColors.ChangeColor(COLORS.Green);
             Console.WriteLine("모든 라운드에서 승리하셨습니다.");
+            NotifyObservers("End");
+
+            //옵저버 해제
+            GameManager.Instance.Unsubscribe(MapManager.Instance);
         }
 
         //이름, 배틀 현황

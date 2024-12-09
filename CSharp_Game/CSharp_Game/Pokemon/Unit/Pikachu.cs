@@ -53,7 +53,6 @@ namespace CSharp_Game.Pokemon
             this.EnemySkill(thunderShock);
             Skill surf = new Surf(this);
             this.EnemySkill(surf);
-            
 
         }
     }

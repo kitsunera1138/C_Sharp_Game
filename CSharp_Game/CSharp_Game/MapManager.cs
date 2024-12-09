@@ -58,7 +58,7 @@ namespace CSharp_Game
     //인터페이스 써서 사용
     //상태패턴써서 
 
-    internal class MapManager
+    internal class MapManager : IObserver
     {
         //싱글톤 패턴
         private static MapManager instance;
@@ -91,6 +91,7 @@ namespace CSharp_Game
 
         private MapManager() //싱글톤으로 구현했기에 private로 설정
         {
+            
         }
 
         public void setPokemonFactory(PokemonFactory pokemonFactory)
@@ -104,7 +105,6 @@ namespace CSharp_Game
 
             // 팩토리 생성
             //var pokemonFactory = new PokemonFactory();
-
         }
 
 
@@ -166,6 +166,29 @@ namespace CSharp_Game
                 //저 3개중에 등장
             }
 
+        }
+
+        //옵저버
+        public void Update(string message) 
+        {
+            if (message == "MapChange")
+            {
+                HandleMapChange();
+            }
+
+            if(message == "End")
+            {
+                Console.WriteLine("게임이 종료되었습니다.");
+                //GameManager.Instance.Unsubscribe(this);
+            }
+        }
+
+        private void HandleMapChange()
+        {
+            //옵저버 받음
+            Console.WriteLine("맵이 변경되었습니다!");
+            // 새로운 맵 로직 추가
+            RandMap();
         }
     }
 }

@@ -47,6 +47,7 @@ namespace CSharp_Game
         public static void MainMenuScene()//정적 매서드
         {
             CusurOff();
+            GameManager.Instance.eventSet();
             ConsoleColors.ResetColor();
             ConsoleColors.ChangeColor(COLORS.White);
 
