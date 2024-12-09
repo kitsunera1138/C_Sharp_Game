@@ -9,7 +9,7 @@ using static CSharp_Game.Skill;
 
 namespace CSharp_Game.Pokemon
 {
-    internal class Squirtle : Pokemon 
+    internal class Pidgey : Pokemon
     {
         public override POKEMONTYPE primaryType { get; set; } // 첫번째타입
         public override POKEMONTYPE secondaryType { get; set; } // 두번째타입
@@ -17,31 +17,31 @@ namespace CSharp_Game.Pokemon
 
         public override float baseExperience { get; set; }
         public override string name { get; set; }
-        public Squirtle()
+        public Pidgey()
         {
             Initialize();
         }
 
         protected override void Initialize()
         {
-            name = "꼬부기";
+            name = "구구";
 
-            primaryType = POKEMONTYPE.WATER;
-            secondaryType = POKEMONTYPE.NONE;
+            primaryType = POKEMONTYPE.NORMAL;
+            secondaryType = POKEMONTYPE.FLYING;
 
             Level = 5;
             experience = 0;
-            baseExperience = 63;
+            baseExperience = 63; //
 
-            SetBaseStats(44, 48, 65, 50, 64, 43);
+            SetBaseStats(40, 45, 40, 35, 35, 56);
             PermanentStatsManager.Instance.SetStats(this); //능력치 세팅
 
             CurrentHP = MaxHP;
 
-            Skill waterGun = new WaterGun(this);
-            this.BasicSkill(waterGun);
-            Skill surf = new Surf(this);
-            this.BasicSkill(surf);
+            Skill peck = new Peck(this);
+            this.BasicSkill(peck);
+            Skill wingAttack = new WingAttack(this);
+            this.BasicSkill(wingAttack);
         }
     }
 }

@@ -47,6 +47,9 @@ namespace CSharp_Game.Pokemon
             PermanentStatsManager.Instance.SetStats(this); //능력치 세팅
 
             CurrentHP = MaxHP;
+
+            Skill pound = new Pound(this);
+            this.BasicSkill(pound);
         }
     }
 }

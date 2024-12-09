@@ -49,7 +49,10 @@ namespace CSharp_Game.Pokemon
             CurrentHP = MaxHP;
 
             Skill ember = new Ember(this);
-            this.EnemySkill(ember);
+            this.BasicSkill(ember);
+            Skill flamethrower = new Flamethrower(this);
+            this.BasicSkill(flamethrower);
+            
         }
     }
 }

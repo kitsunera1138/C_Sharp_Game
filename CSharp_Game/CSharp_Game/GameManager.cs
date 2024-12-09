@@ -10,6 +10,8 @@ namespace CSharp_Game
 {
     internal class GameManager : Subject //옵저버 패턴
     {
+        private int playerLevel = 10;
+
         private static GameManager instance;
         public static GameManager Instance
         {
@@ -25,6 +27,15 @@ namespace CSharp_Game
 
         public void eventSet (){
             GameManager.Instance.Subscribe(MapManager.Instance);
+
+            GameManager.Instance.Subscribe(ExperienceManager.Instance);
+        }
+
+        public void eventDelete()
+        {
+            GameManager.Instance.Unsubscribe(MapManager.Instance);
+
+            GameManager.Instance.Unsubscribe(ExperienceManager.Instance);
         }
 
         public void ChooseMainPokemon()
@@ -41,14 +52,14 @@ namespace CSharp_Game
             GameManager.Instance.PlayerPokemon(playerPokemon);
             GameManager.Instance.CurrentEnemyPokemon(enemyPokemon);
             enemyAI.CurrentEnemyPokemon(GameManager.Instance.enemyPokemon);
-
+            ExperienceManager.Instance.PlayerPokemon(playerPokemon);
             //Console.WriteLine(playerPokemon.CurrentHP + "/" + playerPokemon.MaxHP);
 
             //싸움
             BattleTurnManager.Instance.PlayerPokemon(playerPokemon);
             BattleTurnManager.Instance.CurrentEnemyPokemon(enemyPokemon);
 
-            playerPokemon.Level = 50;
+            playerPokemon.Level = playerLevel;
             PermanentStatsManager.Instance.SetStats(playerPokemon);
             playerPokemon.CurrentHP = playerPokemon.MaxHP;
 
@@ -64,11 +75,12 @@ namespace CSharp_Game
                 UIManager.ClearConsoleBuffer();
             }
 
-            enemyAI.CurrentEnemyPokemon(GameManager.Instance.enemyPokemon);
+
 
             while (playerPokemon.CurrentHP > 0 && GameManager.Instance.enemyPokemon.CurrentHP > 0)
             {
                 BattleTurnManager.Instance.CurrentEnemyPokemon(GameManager.Instance.enemyPokemon);
+                            enemyAI.CurrentEnemyPokemon(GameManager.Instance.enemyPokemon);
                 //GameManager.Instance.enemyPokemon.ShowHealth();
                 BattleTurnManager.Instance.ShowHealth();
 
@@ -151,21 +163,36 @@ namespace CSharp_Game
             Console.WriteLine(playerPokemon.name + "가(이)" + " 쓰러졌습니다");
             Console.WriteLine();
             Console.WriteLine("GameOver");
+
+            NotifyObservers("End");
+
             //옵저버 해제
-            GameManager.Instance.Unsubscribe(MapManager.Instance);
+            eventDelete();
+            //GameManager.Instance.Unsubscribe(MapManager.Instance);
         }
 
         public void GameWin()
         {
             if(CurrentMap <= 10)
             {
+                //GetExperienceforTarget(playerPokemon,enemyPokemon);
+                NotifyObservers("PlayerWin1");
                 ConsoleColors.ChangeColor(COLORS.Cyan);
                 Console.WriteLine();
                 Console.WriteLine("승리하셨습니다. 다음 맵으로 넘어갑니다.");
 
-                //맵 이동 이벤트
-                NotifyObservers("MapChange");
+                //승리 이벤트
+                NotifyObservers("PlayerWin");
 
+                if(CurrentMap%3 == 0)
+                {
+                    NotifyObservers("EventChange");
+                }
+                else
+                {
+                    NotifyObservers("MapChange");
+                }
+                //맵 이동 이벤트
                 ConsoleColors.ResetColor();
 
                 UIManager.WaitForEnterBar();
@@ -190,7 +217,8 @@ namespace CSharp_Game
             NotifyObservers("End");
 
             //옵저버 해제
-            GameManager.Instance.Unsubscribe(MapManager.Instance);
+            eventDelete();
+            //GameManager.Instance.Unsubscribe(MapManager.Instance);
         }
 
         //이름, 배틀 현황
@@ -201,7 +229,7 @@ namespace CSharp_Game
             
                 //SkillDamage(ref AttackPokemon,ref DamagePokemon);
 
-        } 
+        }
 
         //public void Heal(ref Pokemon.Pokemon HealPokemon)
         //{
@@ -216,11 +244,11 @@ namespace CSharp_Game
         //}
 
         ////승리 시 경험치 획득 옵저버 패턴 사용
-        //public void GetExperience(Pokemon.Pokemon getExperience, Pokemon.Pokemon knockedDownPokemon) //getExperience 경험치 획득하는 포켓몬
-        //{
-        //    getExperience.experience += (knockedDownPokemon.baseExperience * knockedDownPokemon.Level) / 5.0f;
-        //}
-        
+        public float GetExperienceforTarget(Pokemon.Pokemon target, Pokemon.Pokemon knockedDownPokemon) //getExperience 경험치 획득하는 포켓몬
+        {
+            return (knockedDownPokemon.baseExperience * knockedDownPokemon.Level) / 5.0f;
+        }
+
         //public void LevelUp(ref Pokemon.Pokemon LevelUpPokemon)
         //{
         //    LevelUpPokemon.Level += 1;

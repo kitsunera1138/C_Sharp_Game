@@ -71,12 +71,19 @@ namespace CSharp_Game.Pokemon
             switch (map)
             {
                 case EVENTMAP.HealingSpring:
+                    Console.WriteLine("회복의 샘물을 찾았다.");
+                    Console.WriteLine("체력과 PP가 모두 회복되었다");
                     GameManager.Instance.EventMapRecovery();
                     break;
                 case EVENTMAP.LevelUpChest:
-                    GameManager.Instance.RandLevel(3);
+                    Console.WriteLine("보물 상자를 찾았다.");
+                    int num = random.Next(1, 4);
+                    GameManager.Instance.RandLevel(num);
+                    Console.WriteLine(num + "만큼 레벨이 올랐다.");
                     break;
-                case EVENTMAP.EeveeSwarm:      // 이브이 무리를 만났다
+                case EVENTMAP.EeveeSwarm:
+                    Console.WriteLine("이브이 무리를 만났다.");
+                    //선택 메서드
                     break;
                 default:
                     break;
@@ -85,6 +92,7 @@ namespace CSharp_Game.Pokemon
         // 랜덤 포켓몬 생성
         public void CreateRandomPokemon(CURRENTMAP map)
         {
+            int ranNum = random.Next(0, 2);
             //Console.WriteLine(map);
             Pokemon wildPokemon;
 
@@ -104,8 +112,11 @@ namespace CSharp_Game.Pokemon
                     wildPokemon = new Squirtle();
                     break;                
                 
-                case CURRENTMAP.DeepForest: //벌레
-                    wildPokemon = new Caterpie();
+                case CURRENTMAP.DeepForest: //벌레, 풀
+                    if (ranNum == 0)
+                        wildPokemon = new Caterpie();
+                    else
+                        wildPokemon = new Bellsprout();
                     break;                
                 case CURRENTMAP.PsychicMountain: //에스퍼
                     wildPokemon = new Caterpie();
@@ -116,7 +127,8 @@ namespace CSharp_Game.Pokemon
             }
 
             // 레벨 설정
-            wildPokemon.Level = GameManager.Instance.CurrentMap + 4;
+            //레벨이 생각보다 안올라서 난이도 쉽게 적 레벨 초반 2부터
+            wildPokemon.Level = GameManager.Instance.CurrentMap + 1;
             PermanentStatsManager.Instance.SetStats(wildPokemon);
             wildPokemon.CurrentHP = wildPokemon.MaxHP;
 
@@ -146,7 +158,7 @@ namespace CSharp_Game.Pokemon
             }
 
             // 레벨 설정
-            wildPokemon.Level = GameManager.Instance.CurrentMap + 4;
+            wildPokemon.Level = GameManager.Instance.CurrentMap + 1;
             PermanentStatsManager.Instance.SetStats(wildPokemon);
             wildPokemon.CurrentHP = wildPokemon.MaxHP;
 

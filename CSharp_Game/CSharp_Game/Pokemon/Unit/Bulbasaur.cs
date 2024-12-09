@@ -49,7 +49,7 @@ namespace CSharp_Game.Pokemon
             CurrentHP = MaxHP;
 
             Skill vineWhip = new VineWhip(this);
-            this.EnemySkill(vineWhip);
+            this.BasicSkill(vineWhip);
         }
     }
 }

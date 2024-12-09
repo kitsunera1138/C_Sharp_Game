@@ -45,9 +45,9 @@ namespace CSharp_Game
         public void ShowHealth()
         {
             Console.WriteLine();
-            Console.WriteLine(playerPokemon.name + ": " + playerPokemon.CurrentHP + "/" + playerPokemon.MaxHP);
+            Console.WriteLine(playerPokemon.name + "   LV."+playerPokemon.Level + ": " + playerPokemon.CurrentHP + "/" + playerPokemon.MaxHP);
             if(enemyPokemon.CurrentHP > 0)
-            Console.WriteLine(enemyPokemon.name + ": " + enemyPokemon.CurrentHP + "/" + enemyPokemon.MaxHP);
+            Console.WriteLine(enemyPokemon.name + "   LV." + enemyPokemon.Level + ": " + enemyPokemon.CurrentHP + "/" + enemyPokemon.MaxHP);
             Console.WriteLine();
         }
         //선제 포켓몬 //포켓몬의 스피드 비교

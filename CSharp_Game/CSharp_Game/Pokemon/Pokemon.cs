@@ -36,6 +36,7 @@ namespace CSharp_Game.Pokemon
                 return this.Level;  // this를 통해 인스턴스 속성에 접근
             }
         }
+        public EXGROWTHRATE eXGROWTHRATE { get; set; }
         public float experience { get; set; } //경험치 
         public float nextExperience { get; set; } //다음 레벨까지의 경험치 
         public abstract float baseExperience { get; set; } //야생 포켓몬이 가진 기본 경험치 (승리 시 받을 수 있는 경험치)와 경험치 계산에 들어가는 기본 경험치
@@ -79,6 +80,7 @@ namespace CSharp_Game.Pokemon
             this.LearnSkill(tackle);
 
             CurrentSkills = Skills[0];
+            eXGROWTHRATE = EXGROWTHRATE.Slow;
         }
 
         //추상 메서드 자식에서 필수적으로 구현해야되는 것들을 포함한다. SetBaseStats 기본 능력치 설정,Level,experience,baseExperience,primaryType 타입들
@@ -126,7 +128,7 @@ namespace CSharp_Game.Pokemon
             }
         }
 
-        public void EnemySkill(Skill skill)
+        public void BasicSkill(Skill skill)
         {
             if (Skills.Count < 4)
             {

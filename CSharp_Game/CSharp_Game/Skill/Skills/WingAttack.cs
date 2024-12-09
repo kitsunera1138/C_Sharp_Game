@@ -8,7 +8,7 @@ using static CSharp_Game.Skill;
 
 namespace CSharp_Game
 {
-    public class Ember : Skill
+    public class WingAttack : Skill
     {
         //
         public override string skillName { get; set; }
@@ -17,16 +17,16 @@ namespace CSharp_Game
         public override ATTACKTYPE AttackType { get; set; }
         public override SKILLTYPE skillType { get; set; }
 
-        public Ember(Pokemon.Pokemon learbpokemon) //기술을 배운 포켓몬의 타입을 가져옴
+        public WingAttack(Pokemon.Pokemon learbpokemon) //기술을 배운 포켓몬의 타입을 가져옴
         {
             this.pokemon = learbpokemon;
-            skillName = "불꽃세례";
-            skillType = SKILLTYPE.FIRE;
-            AttackType = ATTACKTYPE.SpecialAttack;
+            skillName = "날개치기";
+            skillType = SKILLTYPE.FLYING;
+            AttackType = ATTACKTYPE.PhysicalAttack;
 
-            power = 40;
+            power = 60;
             accuracy = 100; //명중률
-            maxPP = 25;
+            maxPP = 35;
 
             Priority = 1;
             currentPP = maxPP;

@@ -46,7 +46,7 @@ namespace CSharp_Game.Pokemon
             CurrentHP = MaxHP;
 
             Skill precipiceBlades = new PrecipiceBlades(this);
-            this.EnemySkill(precipiceBlades);
+            this.BasicSkill(precipiceBlades);
             
         }
     }

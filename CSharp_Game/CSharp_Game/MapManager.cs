@@ -88,6 +88,7 @@ namespace CSharp_Game
         private int wildPLevel = 5; //야생 포켓몬은 기본 5레벨이었다가 층수에 따라 1씩 증가
         public int WildPLevel {  get { return wildPLevel; } }
         private PokemonFactory pokemonFactory;
+        private int MaxStage = 10;
 
         private MapManager() //싱글톤으로 구현했기에 private로 설정
         {
@@ -124,20 +125,27 @@ namespace CSharp_Game
             return (CURRENTMAP)mapValues.GetValue(random.Next(mapValues.Length));
         }
 
+        public EVENTMAP GetRandomEventMap()
+        {
+            Array mapValues = Enum.GetValues(typeof(EVENTMAP));
+            // Random으로 하나 선택
+            return (EVENTMAP)mapValues.GetValue(random.Next(mapValues.Length));
+        }
+        
         public void RandMap()
         {
-            if(CurrentMap < 10)
+            if(CurrentMap < MaxStage) //현재 MaxStage는 10
             {
                 CURRENTMAP randomMap = GetRandomMap();
                 pokemonFactory.CreateRandomPokemon(randomMap);
             }
 
-            if (CurrentMap == 10)
+            if (CurrentMap == MaxStage)
             {
                 LegendaryMap();
             }
 
-            if (CurrentMap > 10)
+            if (CurrentMap > MaxStage)
             {
                 GameManager.Instance.GameEnd();
             }
@@ -145,8 +153,12 @@ namespace CSharp_Game
 
         void EventMap()
         {
-            CURRENTMAP randomMap = GetRandomMap();
-            pokemonFactory.CreateRandomPokemon(randomMap);
+            //randomMap;
+            //pokemonFactory.EventMap(EVENTMAP.HealingSpring);
+
+            EVENTMAP randomMap = GetRandomEventMap();
+            pokemonFactory.EventMap(randomMap);
+            RandMap();
         }
 
         public void LegendaryMap()
@@ -174,15 +186,23 @@ namespace CSharp_Game
             if (message == "MapChange")
             {
                 HandleMapChange();
+            }            
+            
+            if (message == "EventChange")
+            {
+                Console.WriteLine("이벤트 맵에 들어왔습니다.");
+                EventMap();
             }
 
             if(message == "End")
             {
                 Console.WriteLine("게임이 종료되었습니다.");
+                //구독해제 여기서 하면 X
                 //GameManager.Instance.Unsubscribe(this);
             }
         }
 
+        //GameManager에서 옵저버 받음
         private void HandleMapChange()
         {
             //옵저버 받음

@@ -66,7 +66,6 @@ namespace CSharp_Game
             }
         }
 
-        //모든 스킬마다 중복되므로 배틀매니저 에서 구현하도록함
         public void TypeCalculation(Skill skill, Pokemon.Pokemon damagedPokemon)
         {
             //나의 스킬과 상대 타입에 따른 효과

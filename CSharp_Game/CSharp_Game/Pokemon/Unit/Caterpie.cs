@@ -49,7 +49,7 @@ namespace CSharp_Game.Pokemon
             CurrentHP = MaxHP;
 
             Skill waterGun = new WaterGun(this);
-            this.EnemySkill(waterGun);
+            this.BasicSkill(waterGun);
         }
     }
 }

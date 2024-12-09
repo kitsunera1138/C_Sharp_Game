@@ -50,9 +50,11 @@ namespace CSharp_Game.Pokemon
             CurrentHP = MaxHP;
 
             Skill thunderShock = new ThunderShock(this);
-            this.EnemySkill(thunderShock);
+            this.BasicSkill(thunderShock);
+            Skill thunder = new Thunder(this);
+            this.BasicSkill(thunder);
             Skill surf = new Surf(this);
-            this.EnemySkill(surf);
+            this.BasicSkill(surf);
 
         }
     }
