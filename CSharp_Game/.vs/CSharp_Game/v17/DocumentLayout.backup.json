@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|c:\\users\\gahee_cho\\desktop\\github_c\\sunshadow\\c_sharp_game\\csharp_game\\csharp_game\\console\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|solutionrelative:csharp_game\\console\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|c:\\users\\gahee_cho\\desktop\\github_c\\sunshadow\\c_sharp_game\\csharp_game\\csharp_game\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|solutionrelative:csharp_game\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|c:\\users\\gahee_cho\\desktop\\github_c\\sunshadow\\c_sharp_game\\csharp_game\\csharp_game\\pokemon\\unit\\enemylogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|solutionrelative:csharp_game\\pokemon\\unit\\enemylogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|c:\\users\\gahee_cho\\desktop\\github_c\\sunshadow\\c_sharp_game\\csharp_game\\csharp_game\\observer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|solutionrelative:csharp_game\\observer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|c:\\users\\gahee_cho\\desktop\\github_c\\sunshadow\\c_sharp_game\\csharp_game\\csharp_game\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|solutionrelative:csharp_game\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|c:\\users\\gahee_cho\\desktop\\github_c\\sunshadow\\c_sharp_game\\csharp_game\\csharp_game\\pokemon\\pokemonfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|solutionrelative:csharp_game\\pokemon\\pokemonfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|c:\\users\\gahee_cho\\desktop\\github_c\\sunshadow\\c_sharp_game\\csharp_game\\csharp_game\\mapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|solutionrelative:csharp_game\\mapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|c:\\users\\gahee_cho\\desktop\\github_c\\sunshadow\\c_sharp_game\\csharp_game\\csharp_game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|solutionrelative:csharp_game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|c:\\users\\gahee_cho\\desktop\\github_c\\sunshadow\\c_sharp_game\\csharp_game\\csharp_game\\pokemon\\unit\\groudon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|c:\\users\\gahee_cho\\desktop\\github_c\\sunshadow\\c_sharp_game\\csharp_game\\csharp_game\\pokemon\\permanentstatsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|solutionrelative:csharp_game\\pokemon\\permanentstatsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|c:\\users\\gahee_cho\\desktop\\github_c\\sunshadow\\c_sharp_game\\csharp_game\\csharp_game\\console\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|solutionrelative:csharp_game\\console\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D624FCF-77A3-476B-800E-804661197D56}|CSharp_Game\\CSharp_Game.csproj|c:\\users\\gahee_cho\\desktop\\github_c\\sunshadow\\c_sharp_game\\csharp_game\\csharp_game\\pokemon\\unit\\abra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -162,37 +150,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EnemyLogic.cs",
-              "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\Unit\\EnemyLogic.cs",
-              "RelativeDocumentMoniker": "CSharp_Game\\Pokemon\\Unit\\EnemyLogic.cs",
-              "ToolTip": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\Unit\\EnemyLogic.cs",
-              "RelativeToolTip": "CSharp_Game\\Pokemon\\Unit\\EnemyLogic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T01:43:13.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Abra.cs",
-              "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\Unit\\Abra.cs",
-              "RelativeDocumentMoniker": "CSharp_Game\\Pokemon\\Unit\\Abra.cs",
-              "ToolTip": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\Unit\\Abra.cs",
-              "RelativeToolTip": "CSharp_Game\\Pokemon\\Unit\\Abra.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T01:25:45.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "Bulbasaur.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\Unit\\Bulbasaur.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Pokemon\\Unit\\Bulbasaur.cs",
@@ -200,12 +162,11 @@
               "RelativeToolTip": "CSharp_Game\\Pokemon\\Unit\\Bulbasaur.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowCQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T18:11:57.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T18:11:57.413Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 17,
               "Title": "SKILLTYPE.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Skill\\SKILLTYPE.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Skill\\SKILLTYPE.cs",
@@ -213,12 +174,11 @@
               "RelativeToolTip": "CSharp_Game\\Skill\\SKILLTYPE.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T16:00:03.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T16:00:03.477Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 15,
               "Title": "Pikachu.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\Unit\\Pikachu.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Pokemon\\Unit\\Pikachu.cs",
@@ -226,12 +186,11 @@
               "RelativeToolTip": "CSharp_Game\\Pokemon\\Unit\\Pikachu.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAgwDUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T13:57:05.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T13:57:05.674Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 13,
               "Title": "Charmander.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\Unit\\Charmander.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Pokemon\\Unit\\Charmander.cs",
@@ -239,8 +198,7 @@
               "RelativeToolTip": "CSharp_Game\\Pokemon\\Unit\\Charmander.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T15:21:53.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T15:21:53.272Z"
             },
             {
               "$type": "Document",
@@ -252,64 +210,11 @@
               "RelativeToolTip": "CSharp_Game\\Pokemon\\PokemonFactory.cs",
               "ViewState": "AgIAAIAAAAAAAAAAAAAcwJsAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T16:31:11.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T16:31:11.094Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PermanentStatsManager.cs",
-              "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\PermanentStatsManager.cs",
-              "RelativeDocumentMoniker": "CSharp_Game\\Pokemon\\PermanentStatsManager.cs",
-              "ToolTip": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\PermanentStatsManager.cs",
-              "RelativeToolTip": "CSharp_Game\\Pokemon\\PermanentStatsManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T13:58:04.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ThunderShock.cs",
-              "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Skill\\Skills\\ThunderShock.cs",
-              "RelativeDocumentMoniker": "CSharp_Game\\Skill\\Skills\\ThunderShock.cs",
-              "ToolTip": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Skill\\Skills\\ThunderShock.cs",
-              "RelativeToolTip": "CSharp_Game\\Skill\\Skills\\ThunderShock.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBgAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T22:45:49.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Caterpie.cs",
-              "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\Unit\\Caterpie.cs",
-              "RelativeDocumentMoniker": "CSharp_Game\\Pokemon\\Unit\\Caterpie.cs",
-              "ToolTip": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\Unit\\Caterpie.cs",
-              "RelativeToolTip": "CSharp_Game\\Pokemon\\Unit\\Caterpie.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAcwCsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T01:23:15.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Observer.cs",
-              "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Observer.cs",
-              "RelativeDocumentMoniker": "CSharp_Game\\Observer.cs",
-              "ToolTip": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Observer.cs*",
-              "RelativeToolTip": "CSharp_Game\\Observer.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T13:56:18.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "UIManager.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Console\\UIManager.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Console\\UIManager.cs",
@@ -323,6 +228,78 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Abra.cs",
+              "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\Unit\\Abra.cs",
+              "RelativeDocumentMoniker": "CSharp_Game\\Pokemon\\Unit\\Abra.cs",
+              "ToolTip": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\Unit\\Abra.cs",
+              "RelativeToolTip": "CSharp_Game\\Pokemon\\Unit\\Abra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T01:25:45.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyLogic.cs",
+              "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\Unit\\EnemyLogic.cs",
+              "RelativeDocumentMoniker": "CSharp_Game\\Pokemon\\Unit\\EnemyLogic.cs",
+              "ToolTip": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\Unit\\EnemyLogic.cs",
+              "RelativeToolTip": "CSharp_Game\\Pokemon\\Unit\\EnemyLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T01:43:13.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PermanentStatsManager.cs",
+              "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\PermanentStatsManager.cs",
+              "RelativeDocumentMoniker": "CSharp_Game\\Pokemon\\PermanentStatsManager.cs",
+              "ToolTip": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\PermanentStatsManager.cs",
+              "RelativeToolTip": "CSharp_Game\\Pokemon\\PermanentStatsManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T13:58:04.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ThunderShock.cs",
+              "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Skill\\Skills\\ThunderShock.cs",
+              "RelativeDocumentMoniker": "CSharp_Game\\Skill\\Skills\\ThunderShock.cs",
+              "ToolTip": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Skill\\Skills\\ThunderShock.cs",
+              "RelativeToolTip": "CSharp_Game\\Skill\\Skills\\ThunderShock.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T22:45:49.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Caterpie.cs",
+              "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\Unit\\Caterpie.cs",
+              "RelativeDocumentMoniker": "CSharp_Game\\Pokemon\\Unit\\Caterpie.cs",
+              "ToolTip": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\Unit\\Caterpie.cs",
+              "RelativeToolTip": "CSharp_Game\\Pokemon\\Unit\\Caterpie.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwCsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T01:23:15.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Subject.cs",
+              "RelativeDocumentMoniker": "CSharp_Game\\Subject.cs",
+              "ToolTip": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Subject.cs",
+              "RelativeToolTip": "CSharp_Game\\Subject.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T13:56:18.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Groudon.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\Unit\\Groudon.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Pokemon\\Unit\\Groudon.cs",
@@ -330,12 +307,11 @@
               "RelativeToolTip": "CSharp_Game\\Pokemon\\Unit\\Groudon.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T18:02:16.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T18:02:16.229Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 18,
               "Title": "BattleManager.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\BattleManager.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\BattleManager.cs",
@@ -343,12 +319,11 @@
               "RelativeToolTip": "CSharp_Game\\BattleManager.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAUwEQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T13:56:46.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T13:56:46.843Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "Pokemon.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\Pokemon.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Pokemon\\Pokemon.cs",
@@ -356,12 +331,11 @@
               "RelativeToolTip": "CSharp_Game\\Pokemon\\Pokemon.cs",
               "ViewState": "AgIAAJsAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T01:24:37.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T01:24:37.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "POKEMONTYPE.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\POKEMONTYPE.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Pokemon\\POKEMONTYPE.cs",
@@ -369,12 +343,11 @@
               "RelativeToolTip": "CSharp_Game\\Pokemon\\POKEMONTYPE.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T10:59:32.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T10:59:32.903Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 23,
               "Title": "PokemonTypeManager.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\PokemonTypeManager.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Pokemon\\PokemonTypeManager.cs",
@@ -382,12 +355,11 @@
               "RelativeToolTip": "CSharp_Game\\Pokemon\\PokemonTypeManager.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAAwEUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T02:40:34.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T02:40:34.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 21,
               "Title": "LearnSkillManager.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Skill\\LearnSkillManager.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Skill\\LearnSkillManager.cs",
@@ -395,12 +367,11 @@
               "RelativeToolTip": "CSharp_Game\\Skill\\LearnSkillManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T16:23:39.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T16:23:39.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 12,
               "Title": "Squirtle.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\Unit\\Squirtle.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Pokemon\\Unit\\Squirtle.cs",
@@ -408,12 +379,11 @@
               "RelativeToolTip": "CSharp_Game\\Pokemon\\Unit\\Squirtle.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAIwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T18:17:13.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T18:17:13.199Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 19,
               "Title": "InputManager.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\InputManager.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\InputManager.cs",
@@ -421,12 +391,11 @@
               "RelativeToolTip": "CSharp_Game\\InputManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T13:56:23.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T13:56:23.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 20,
               "Title": "Skill.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Skill\\Skill.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Skill\\Skill.cs",
@@ -434,12 +403,11 @@
               "RelativeToolTip": "CSharp_Game\\Skill\\Skill.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T19:40:55.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T19:40:55.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 14,
               "Title": "Surf.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Skill\\Skills\\Surf.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Skill\\Skills\\Surf.cs",
@@ -447,12 +415,11 @@
               "RelativeToolTip": "CSharp_Game\\Skill\\Skills\\Surf.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAwBcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T01:13:42.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T01:13:42.223Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 24,
               "Title": "ExperienceManager.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\ExperienceManager.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Pokemon\\ExperienceManager.cs",
@@ -460,12 +427,11 @@
               "RelativeToolTip": "CSharp_Game\\Pokemon\\ExperienceManager.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAADwvxoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T14:21:15.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T14:21:15.02Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 16,
               "Title": "Ember.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Skill\\Skills\\Ember.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Skill\\Skills\\Ember.cs",
@@ -473,12 +439,11 @@
               "RelativeToolTip": "CSharp_Game\\Skill\\Skills\\Ember.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAkwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T23:48:42.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T23:48:42.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 22,
               "Title": "BattleTurnManager.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\BattleTurnManager.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\BattleTurnManager.cs",
@@ -486,12 +451,11 @@
               "RelativeToolTip": "CSharp_Game\\BattleTurnManager.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAQwCkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T13:56:37.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T13:56:37.602Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 25,
               "Title": "Jigglypuff.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Pokemon\\Unit\\Jigglypuff.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Pokemon\\Unit\\Jigglypuff.cs",
@@ -499,12 +463,11 @@
               "RelativeToolTip": "CSharp_Game\\Pokemon\\Unit\\Jigglypuff.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T13:57:05.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T13:57:05.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 26,
               "Title": "WaterGun.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Skill\\Skills\\WaterGun.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Skill\\Skills\\WaterGun.cs",
@@ -512,12 +475,11 @@
               "RelativeToolTip": "CSharp_Game\\Skill\\Skills\\WaterGun.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAA0wCoAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T23:52:40.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T23:52:40.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 27,
               "Title": "Tackle.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Skill\\Skills\\Tackle.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Skill\\Skills\\Tackle.cs",
@@ -525,12 +487,11 @@
               "RelativeToolTip": "CSharp_Game\\Skill\\Skills\\Tackle.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAkwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T11:06:32.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T11:06:32.787Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 28,
               "Title": "Thunder.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Skill\\Skills\\Thunder.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Skill\\Skills\\Thunder.cs",
@@ -538,12 +499,11 @@
               "RelativeToolTip": "CSharp_Game\\Skill\\Skills\\Thunder.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAxwBAAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T13:56:52.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T13:56:52.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 29,
               "Title": "VineWhip.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Skill\\Skills\\VineWhip.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Skill\\Skills\\VineWhip.cs",
@@ -551,12 +511,11 @@
               "RelativeToolTip": "CSharp_Game\\Skill\\Skills\\VineWhip.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAkwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T23:50:50.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T23:50:50.495Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 30,
               "Title": "ConsoleColors.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Console\\ConsoleColors.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Console\\ConsoleColors.cs",
@@ -564,12 +523,11 @@
               "RelativeToolTip": "CSharp_Game\\Console\\ConsoleColors.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAADwvyAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T14:19:17.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T14:19:17.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 31,
               "Title": "Ability.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Ability\\Ability.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\Ability\\Ability.cs",
@@ -577,12 +535,11 @@
               "RelativeToolTip": "CSharp_Game\\Ability\\Ability.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T11:29:22.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T11:29:22.664Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 32,
               "Title": "HeldItem.cs",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\HeldItem\\HeldItem.cs",
               "RelativeDocumentMoniker": "CSharp_Game\\HeldItem\\HeldItem.cs",
@@ -590,12 +547,11 @@
               "RelativeToolTip": "CSharp_Game\\HeldItem\\HeldItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T16:23:33.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T16:23:33.799Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 33,
               "Title": "CSharp_Game",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\CSharp_Game.csproj",
               "RelativeDocumentMoniker": "CSharp_Game\\CSharp_Game.csproj",
@@ -606,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 34,
               "Title": "CSharp_Game.csproj",
               "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\CSharp_Game.csproj",
               "RelativeDocumentMoniker": "CSharp_Game\\CSharp_Game.csproj",
@@ -615,87 +571,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-12-03T02:35:41.844Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "fb39510d-2115-4ae4-a937-89b8db3e76a5",
-        "Display": 1,
-        "X": 75,
-        "Y": 139,
-        "Width": 1184,
-        "Height": 831,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Program.cs",
-              "RelativeDocumentMoniker": "CSharp_Game\\Program.cs",
-              "ToolTip": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\Program.cs",
-              "RelativeToolTip": "CSharp_Game\\Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAiwA0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T16:46:45.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\GameManager.cs",
-              "RelativeDocumentMoniker": "CSharp_Game\\GameManager.cs",
-              "ToolTip": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\GameManager.cs",
-              "RelativeToolTip": "CSharp_Game\\GameManager.cs",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAgwKgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T21:55:17.683Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "f73c5796-73a1-49eb-8047-351cc0f292f1",
-        "Display": 1,
-        "X": 181,
-        "Y": 24,
-        "Width": 1184,
-        "Height": 831,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MapManager.cs",
-              "DocumentMoniker": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\MapManager.cs",
-              "RelativeDocumentMoniker": "CSharp_Game\\MapManager.cs",
-              "ToolTip": "C:\\Users\\GaHee_Cho\\Desktop\\github_C\\SunShadow\\C_Sharp_Game\\CSharp_Game\\CSharp_Game\\MapManager.cs",
-              "RelativeToolTip": "CSharp_Game\\MapManager.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAYwI0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T13:56:20.396Z",
-              "EditorCaption": ""
             }
           ]
         }

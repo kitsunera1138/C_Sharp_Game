@@ -44,7 +44,7 @@ namespace CSharp_Game
             BattleTurnManager.Instance.PlayerPokemon(playerPokemon);
             BattleTurnManager.Instance.CurrentEnemyPokemon(enemyPokemon);
 
-            playerPokemon.Level = 50;
+            playerPokemon.Level = 20;
             PermanentStatsManager.Instance.SetStats(playerPokemon);
             playerPokemon.CurrentHP = playerPokemon.MaxHP;
 
