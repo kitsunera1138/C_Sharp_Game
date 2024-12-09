@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace CSharp_Game.HeldItem
 {
+    public interface IItem
+    {
+        void Use();
+    }
+
     internal class HeldItem
     {
+
     }
 }

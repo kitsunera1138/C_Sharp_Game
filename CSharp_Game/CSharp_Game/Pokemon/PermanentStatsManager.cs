@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharp_Game.Pokemon
 {
-    //레벨업에 따른 능력치 세팅
+    //능력치 세팅 매니저 //초기화 시(생성,배틀 종료), 레벨업 시 호출
     public class PermanentStatsManager //포켓몬 마다 사용할 예정으로 싱글톤 패턴 사용
     {
         private static PermanentStatsManager instance;

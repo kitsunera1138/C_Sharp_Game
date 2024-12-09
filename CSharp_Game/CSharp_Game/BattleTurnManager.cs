@@ -27,61 +27,85 @@ namespace CSharp_Game
             }
         }
 
-
-        public void SetPokemons(Pokemon.Pokemon player, Pokemon.Pokemon enemy)
+        public void PlayerPokemon(Pokemon.Pokemon playerPokemon)
         {
-            this.playerPokemon = player;
-            this.enemyPokemon = enemy;
+            this.playerPokemon = playerPokemon;
+        }
+        public void CurrentEnemyPokemon(Pokemon.Pokemon enemyPokemon)
+        {
+            this.enemyPokemon = enemyPokemon;
         }
 
         public void BattleTurn()
         {
             //한 턴은 서로 공격을 주고 받았을 경우
             Speed();
+            ShowHealth();
         }
-        void ShowHealth()
+        public void ShowHealth()
         {
             Console.WriteLine();
             Console.WriteLine(playerPokemon.name + ": " + playerPokemon.CurrentHP + "/" + playerPokemon.MaxHP);
+            if(enemyPokemon.CurrentHP > 0)
             Console.WriteLine(enemyPokemon.name + ": " + enemyPokemon.CurrentHP + "/" + enemyPokemon.MaxHP);
             Console.WriteLine();
         }
         //선제 포켓몬 //포켓몬의 스피드 비교
+        //우선도 비교? Priority
+
         public void Speed()
         {
-            ShowHealth();
-
             if (playerPokemon.speed > enemyPokemon.speed)
             {
                 PlayerAttack();
-                EnemyAttack();
+                //수정 필요 버그 생겨서
+                if (enemyPokemon.CurrentHP > 0) 
+                {
+                    EnemyAttack();
+                }
+                else
+                {
+                    return;
+                }
             }
             else if (playerPokemon.speed < enemyPokemon.speed)
             {
                 EnemyAttack();
-                PlayerAttack();
+                //수정 필요 버그 생겨서
+                if (playerPokemon.CurrentHP > 0)
+                {
+                    PlayerAttack();
+                }
+                else
+                {
+                    return;
+                }
             }
             else //speed 동일 시 랜덤으로 공격
             {
                 RandomAttack();
             }
         }
-
         void PlayerAttack()
         {
-            //대충 다른 클래스에서 들고옴
-            Console.WriteLine("Player " + playerPokemon.name + "의 공격");
-            enemyPokemon.CurrentHP -= 10;
-            Console.WriteLine("Enemy " + enemyPokemon.name + "의 남은 체력:" + enemyPokemon.CurrentHP);
-            Console.WriteLine();
+            playerPokemon.CurrentSkills.Use(enemyPokemon);
+
+            if (enemyPokemon.CurrentHP <= 0)
+            {
+                Console.WriteLine(enemyPokemon.name + "을(를) 쓰러뜨렸다");
+                GameManager.Instance.GameWin();
+                return;
+            }
         }
         void EnemyAttack()
         {
-            //대충 다른 클래스에서 들고옴
-            Console.WriteLine("Enemy " + enemyPokemon.name + "의 공격");
-            playerPokemon.CurrentHP -= 10;
-            Console.WriteLine("Player " + playerPokemon.name + "의 남은 체력:" + playerPokemon.CurrentHP);
-            Console.WriteLine();
+            enemyPokemon.CurrentSkills.Use(playerPokemon);
+
+            if (playerPokemon.CurrentHP <= 0)
+            {
+                GameManager.Instance.GameOver();
+                return;
+            }
         }
 
         void RandomAttack()

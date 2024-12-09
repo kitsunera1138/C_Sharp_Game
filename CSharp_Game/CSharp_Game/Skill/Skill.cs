@@ -5,72 +5,48 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using CSharp_Game.Pokemon;
-using CSharp_Game.Skill;
-using static CSharp_Game.Skill.Skill;
+using CSharp_Game;
+using static CSharp_Game.Skill;
+
+
 
 public interface ISkill
 {
-    void Use(CSharp_Game.Pokemon.Pokemon SkillUsePokemon);
+    void Use(Pokemon target);
 }
 
-namespace CSharp_Game.Skill
+namespace CSharp_Game
 {
-    abstract public class Skill
+    abstract public class Skill : ISkill
     {
+        public abstract string skillName { get; set; }
+        public abstract ATTACKTYPE AttackType { get; set; } //물리 특공 방어 회복 능력치 증가 기술중 무슨 타입인가 //나중에 클래스로 나누기
+        public abstract SKILLTYPE skillType { get; set; }  //스킬 타입
+
         public int accuracy;//명중률
         public int evasion;//회피율
 
-        public string skillName { get; set; }
-        public string skillType { get; set; }  //스킬 타입
-        public string attackType { get; set; } //물리인지 특수인지 공격 타입
-                                               //Physical Attack 물리공격
-                                               //Special Attack 특공
-                                               //혹은 회복스킬
-                                               //능력치 업 스킬
-                                               //방어 스킬
+        public float power { get; set; } //위력
+        public float typeBonus = 1; //포켓몬 타입과 기술 타입이 같을 경우
+        public float TypeEffectiveness =1; //상대 포켓몬과의 상성
+        public abstract int maxPP { get; set; } //최대 pp
+        public abstract int currentPP { get; set; } //현재 pp
 
-        public float power { get; set; }
-        public int PP { get; set; }
+        public int Priority = 1; //기술 우선도.. 방어의 경우 4
+        public string skill_Information = "skill 입니다.";
+
+        protected Pokemon.Pokemon pokemon; //이 기술을 배운 포켓몬
 
         //필요 레벨
-        public abstract int Requiredlevel { get; set; }
+        //public abstract int Requiredlevel { get; set; }
         // 현재 맵은 GameManager의 CurrentMap을 직접 참조
-
-
-        public Pokemon.Pokemon target = null;
-        public int Level => target.Level;
-        public Skill() {
-            
+        //public Pokemon.Pokemon target = null;
+        //public int Level => target.Level;
+        public void RecoveryPP() //pp 회복
+        {
+            currentPP = maxPP;
         }
 
-        //보류
-        //ublic int Priority { get; set; } //기술 우선도 
-
-        //public List<string> CurrentSkills { get; set; } //현재 기술 목록
-        //public List<string> Skills { get; set; } //배울수 있는 기술 목록
-
-        //스킬 타입
-        //PokemonTypeManager  type;
-        //Pokemon.PokemonType =;
-
-        //public void SkillDamage(ref Pokemon.Pokemon AttackPokemon, ref Pokemon.Pokemon DamagePokemon)
-        //{
-        //    //타입 계산
-        //}
-        //
-        //public PokemonSkill(string name, int power, string type)
-        //{
-
-        //}
-        //public PokemonSkill AttackA()
-        //{
-        //    return new Skill("AttackA", 50, "Normal");
-        //}
-
-
-
-
+        public abstract void Use(Pokemon.Pokemon target);
     }
-
-
 }

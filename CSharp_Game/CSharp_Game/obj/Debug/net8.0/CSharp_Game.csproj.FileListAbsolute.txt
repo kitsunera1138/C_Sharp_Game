@@ -27,3 +27,4 @@ C:\Users\Administrator\Desktop\C_Sharp_Game\CSharp_Game\CSharp_Game\obj\Debug\ne
 C:\Users\Administrator\Desktop\C_Sharp_Game\CSharp_Game\CSharp_Game\obj\Debug\net8.0\CSharp_Game.pdb
 C:\Users\Administrator\Desktop\C_Sharp_Game\CSharp_Game\CSharp_Game\obj\Debug\net8.0\CSharp_Game.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\C_Sharp_Game\CSharp_Game\CSharp_Game\obj\Debug\net8.0\ref\CSharp_Game.dll
+C:\Users\GaHee_Cho\Desktop\github_C\SunShadow\C_Sharp_Game\CSharp_Game\CSharp_Game\obj\Debug\net8.0\CSharp_Game.sourcelink.json

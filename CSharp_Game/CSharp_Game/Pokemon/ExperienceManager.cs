@@ -24,9 +24,30 @@ namespace CSharp_Game.Pokemon
             }
         }
 
+    
+       // private List<ILevelUpObserver> observers = new List<ILevelUpObserver>();
+
+
+        //한 클래스 객체에서 참조 객체 받아 올 수도 있지만 커플링 방지로 따로 받음
+        public Pokemon playerPokemon = null;
+
+        public void PlayerPokemon(Pokemon playerPokemon)
+        {
+            this.playerPokemon = playerPokemon;
+        }
+
+        public void LevelUp()
+        {
+            //레벨 업에 따른 포켓몬 스탯 갱신
+            playerPokemon.Level += 1;
+            PermanentStatsManager.Instance.SetStats(playerPokemon);
+            Console.WriteLine("레벨업: " + playerPokemon.Level);
+        }
         void A(Pokemon playerPokemon)
         {
             playerPokemon.Level = 50;
         }
+
+
     }
 }
