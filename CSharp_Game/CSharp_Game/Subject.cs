@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//옵저버
 namespace CSharp_Game
 {
     //체력 0 게임 오버

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharp_Game")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9108afcbd428228f29072f17925becdb498b8825")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ae92d46c1afd69419bf06c8fcb40ffc4a912b1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharp_Game")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharp_Game")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

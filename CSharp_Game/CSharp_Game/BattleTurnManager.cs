@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace CSharp_Game
 {
+    //수정 필요 기술 우선도 위주
+    //스킬 먼저 받는걸로
+    //아이템 사용 우선도 풀
+
     internal class BattleTurnManager
     {
         private static readonly Random random = new Random();
@@ -55,6 +59,9 @@ namespace CSharp_Game
 
         public void Speed()
         {
+            //우선도 설정 필요
+
+
             if (playerPokemon.speed > enemyPokemon.speed)
             {
                 PlayerAttack();
